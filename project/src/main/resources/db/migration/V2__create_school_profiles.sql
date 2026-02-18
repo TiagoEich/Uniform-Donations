@@ -6,6 +6,6 @@ CREATE TABLE school_profiles (
 
     CONSTRAINT fk_school_user
     FOREIGN KEY (id)
-    REFERENCES user(id)
+    REFERENCES users(id)
     ON DELETE CASCADE
 );
